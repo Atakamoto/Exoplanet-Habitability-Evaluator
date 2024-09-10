@@ -60,14 +60,14 @@ prediction_proba = model.predict_proba(input_encoded)
 # Display prediction
 st.subheader('Prediction')
 habitability = 'Habitable' if prediction[0] == 1 else 'Non-Habitable'
-st.write(f"Predicted Habitability: {habitability}")
+st.write(f"Predicted Habitability: **{habitability}**")
 
 # Extract the probability for the positive class (1)
 probability_positive = prediction_proba[0][1]
 
 # Display probability for the positive class
 st.subheader('Prediction Probability')
-st.write(f"Probability of being Habitable: {probability_positive:.2f}")
+st.write(f"Probability of being Habitable: **{probability_positive:.2f}**")
 
 import streamlit as st
 
