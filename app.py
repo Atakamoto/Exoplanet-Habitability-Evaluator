@@ -65,6 +65,7 @@ st.write(f"Predicted Habitability: {habitability}")
 # Display prediction probabilities
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
+st.write("0 is Unhabitable and 1 is Habitable")
 
 import streamlit as st
 
