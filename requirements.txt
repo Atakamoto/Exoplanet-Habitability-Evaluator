@@ -2,4 +2,7 @@ streamlit
 pandas
 joblib
 xgboost
-
+matplotlib
+seaborn
+sklearn
+pickle
