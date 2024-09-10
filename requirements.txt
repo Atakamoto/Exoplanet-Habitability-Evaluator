@@ -4,5 +4,5 @@ joblib
 xgboost
 matplotlib
 seaborn
-sklearn
+scikit-learn
 pickle
